@@ -15,15 +15,15 @@
 
 
 def singleNumber(nums):
-        counts = {}
-        for i in nums:
-            if i not in counts:
-                counts[i] = 1
-            else:
-                counts[i] += 1
-        for key, val in counts.items():
-            if val == 1:
-                return key
+    counts = {}
+    for i in nums:
+        if i not in counts:
+            counts[i] = 1
+        else:
+            counts[i] += 1
+    for key, val in counts.items():
+        if val == 1:
+            return key
 
 
-print(singleNumber([4,1,2,1,2]))
+print(singleNumber([4, 1, 2, 1, 2]))
