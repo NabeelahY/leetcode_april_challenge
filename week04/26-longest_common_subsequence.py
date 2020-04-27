@@ -29,6 +29,7 @@
 # 1 <= text2.length <= 1000
 # The input strings consist of lowercase English characters only.
 
+# Hint - Dynamic Programming
 
 def longestCommonSubsequence(text1, text2) -> int:
     arr = [0] * (len(text2) + 1)
